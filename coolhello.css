@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+div{
+    display: flex;
+    margin: auto;;
+    color: purple;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    align-items: flex-start; 
+    text-align: center;
+    overflow: visible;
+    min-height: 100px;
+}
+h2 {
+    height: auto;
+    width: 20ch;
+    font-family: monospace;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20) infinite
+    alternate-reverse;
+    white-space: normal;
+}
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+}
+
+
+/* Tren */
+#train {
+    position: relative;
+    cursor: pointer;
+  }
